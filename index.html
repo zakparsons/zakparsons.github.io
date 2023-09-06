@@ -3,43 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Zak Parsons - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add some basic styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #343a40;
+        }
+
+        .project {
+            margin: 20px 0;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
         <h1>Zak Parsons</h1>
-        <p>Web Developer | Designer | Creator</p>
+        <hr> <!-- Horizontal line -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<section id="about">
+    <h2>About Me</h2>
+    <div class="bio">
+        <img src="https://imgur.com/q2TvsOs" alt="Zak!">
+        <p>Welcome to my portfolio website! While I'm not a web developer, I've used AI-generated code to create this site. It's been a passion project, and I'm excited to share it with you.</p>
+    </div>
+</section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome! Have a look around! Is this a pretty website? Probably not. Am I a web developer? Definitely not!. However, every inch of this website is powered by AI-generated code! This has been a real passion project for some time and I'm excited to share it with you!</p>
-    </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <!-- Add your portfolio projects here -->
-        <!-- Example:
-        <div class="project">
-            <img src="project-image.jpg" alt="Project Name">
-            <h3>Project Name</h3>
-            <p>Description of the project.</p>
-        </div>
-        -->
-    </section>
+   <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+        <a href="project-page1.html">
+            <img src="project1-image.jpg" alt="Project 1">
+            <p class="project-description">Project 1 Description</p>
+        </a>
+    </div>
+    <div class="project">
+        <a href="project-page2.html">
+            <img src="project2-image.jpg" alt="Project 2">
+            <p class="project-description">Project 2 Description</p>
+        </a>
+    </div>
+    <!-- Add more project divs as needed -->
+</section>
 
     <section id="contact">
         <h2>Contact Me</h2>
-        <p>Feel free to reach out! You can contact me at zakparsons@gmail.com or connect with me on social media.</p>
+        <p>Feel free to reach out! You can contact me at <a href="mailto:zakparsons@gmail.com">zakparsons@gmail.com</a> or connect with me on social media.</p>
     </section>
 
     <footer>
